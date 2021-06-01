@@ -46,55 +46,55 @@
             <strong>Terimakasih!</strong> Sudah mau mengungkapkan perasaan yang sama.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
-          <form name="submit-to-google-sheet">
-            <div class="row justify-content-center">
-              <div class="col-md-6">
-                <form name="submit-to-google-sheet">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" name="nama"
-                      placeholder="Nama Kamu" required />
-                  </div>
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Apa benar kamu juga suka sama aku ?</label>
-                    <input type="text" class="form-control" name="iya_tidak" id="exampleFormControlInput1"
-                      placeholder="Iya / tidak" required />
-                  </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form name="submit-to-google-sheet">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" name="nama"
+                    placeholder="Nama Kamu" required />
+                </div>
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Alasan kamu suka sama aku ?</label>
-                    <input type="text" class="form-control" name="alasan" id="exampleFormControlInput1"
-                      placeholder="Jawab di sini alasannya" required />
-                  </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Apa benar kamu juga suka sama aku ?</label>
+                  <input type="text" class="form-control" name="iya_tidak" id="exampleFormControlInput1"
+                    placeholder="Iya / tidak" required />
+                </div>
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Apa yang kamu suka dari aku ?</label>
-                    <input type="text" class="form-control" name="yang_disuka" id="exampleFormControlInput1"
-                      placeholder="Jawab di sini" required />
-                  </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Alasan kamu suka sama aku ?</label>
+                  <input type="text" class="form-control" name="alasan" id="exampleFormControlInput1"
+                    placeholder="Jawab di sini alasannya" required />
+                </div>
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Sekarang Kita udah saling tau kamu mau
-                      gimna?</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" name="kepastian"
-                      placeholder="Pacaran, tetap seperti ini, atau bagaimana?" required />
-                  </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Apa yang kamu suka dari aku ?</label>
+                  <input type="text" class="form-control" name="yang_disuka" id="exampleFormControlInput1"
+                    placeholder="Jawab di sini" required />
+                </div>
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Ceritain kapan kamu suka sama
-                      aku</label>
-                    <textarea class="form-control" name="cerita" id="exampleFormControlTextarea1" rows="3"
-                      required></textarea>
-                  </div>
-              </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Sekarang Kita udah saling tau kamu mau
+                    gimna?</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" name="kepastian"
+                    placeholder="Pacaran, tetap seperti ini, atau bagaimana?" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Ceritain kapan kamu suka sama
+                    aku</label>
+                  <textarea class="form-control" name="cerita" id="exampleFormControlTextarea1" rows="3"
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                  <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+              </form>
             </div>
-            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-              <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-              Loading...
-            </button>
-          </form>
+          </div>
 
           <footer class="pt-3 mt-4 text-muted border-top">&copy; 2021</footer>
         </div>
